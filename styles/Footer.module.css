@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	background: green;
+	margin: auto;	
+	align-items: center;
+	width: 100%;
+}
+
+.links {
+	display: flex;
+}
+
+.links a {
+	margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+        background: red;
+	}
+}
